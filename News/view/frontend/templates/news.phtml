@@ -1,0 +1,7 @@
+<?php $news = $block->getNews();?>
+<h1>News Content</h1>
+<?php foreach ($news as $value) {?>
+	<h2><?= $value['title'] ?></h2>
+	<p><?= $value['description'] ?></p>
+	
+<?php } ?>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Demo_News::news" title="News" module="Demo_News" sortOrder="30" resource="Demo_News::news"/>
+        <add id="Demo_News::news_manage" title="Add News" module="Demo_News" sortOrder="10" parent="Demo_News::news" action="news/index/" resource="Demo_News::manage"/>
+    </menu>
+</config>
